@@ -16,7 +16,7 @@ that drawback. The original solution was published by [@drueter](https://github.
 
 ## Installing
 
-1. Download the [xml file][xml].
+1. Download the [xml file][xml].  -> paste into VScode and make sure to save in UFT16LE encoding
 1. Open a `CMD` or `Powershell` terminal and navigate to where the file was downloaded 
 1. Run `schtasks /create /TN "Auto Suspend VMWare instances" /XML vmware-auto-suspend.xml`
 1. Download the [script][script] and put it in `C:/`.
